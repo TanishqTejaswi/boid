@@ -1,0 +1,19 @@
+# Changes here will be overwritten by Copier
+_commit: e00602a
+_src_path: gh:CENTURI-Introduction-to-Python/CENTURI-template.git
+class_name: Boid
+display_name: Boid
+email: tanishq.tejaswi@outlook.com
+executable: false
+full_name: Tanishq
+github_repository_url: provide later
+github_username_or_organization: TanishqTejaswi
+license: MIT
+module_name: _boid
+numpy: true
+package_name: boid
+scikit_image: false
+scikit_learn: false
+scipy: false
+short_description: Boids
+test_notebook: true
