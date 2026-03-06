@@ -17,7 +17,6 @@ class Boid:
         Args:
             dt: The time step for the simulation
         """
-        # Copy the function from the previous cell
         self.velocity = self.velocity + dt*self.acceleration
         
     def move_boid(self, *, dt: float) -> None:
@@ -27,7 +26,6 @@ class Boid:
         Args:
             dt: The time step for the simulation
         """
-        # Write a function that moves the boid based on its velocity
         self.position = self.position + dt*self.velocity
         self.update_velocity(dt=dt)
 
@@ -39,7 +37,6 @@ class Boid:
             dt: The time step for the simulation
             num_steps: The number of steps to simulate
         """
-        # Write the code to plot the trajectory of the boid
         traj = []
         for _ in range(num_steps):
             self.move_boid(dt=dt)
